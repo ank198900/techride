@@ -1,7 +1,7 @@
 $(function(){
     $.ajax({
     url: "https://newsapi.org/v2/top-headlines?sources=techcrunch&apiKey=b023e7d89f064287b363a6691cd99344",
-    dataType: 'application/json',
+    "Content-Type": "application/json",
     success: function(results){
         var title = results.articles.title;
         var description = results.articles.description;
