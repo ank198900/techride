@@ -1,7 +1,58 @@
 body {
     background-color: #edf1f5;
 }
+
+nav {
+    font-family: "Oswald", sans-serif;
+    font-weight: 400;
+}
+
+.about {
+    padding-top: 5px;
+}
+
+.imageCenter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+form {
+    padding: 10px;
+}
+
+.topHeading {
+    margin-top: 20px;
+    font-family: "Oswald", sans-serif;
+    font-weight: 300;
+    font-size: 35px;
+    text-align: center;
+}
+
+.mainHeading {
+    font-family: "Oswald", sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+}
+
+.newsDesc {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.techHead {
+    margin-top: 5px;
+    font-family: "Oswald", sans-serif;
+    font-weight: 300;
+    text-align: center;
+}
 /*Cards*/
+
+.cardAlignment {
+    display: flex;
+}
+
 .card {
     background-color: #ffffff;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
@@ -13,6 +64,7 @@ body {
 .mainCard {
     background-color: #ffffff;
     margin-top: 20px;
+    margin-bottom: 20px;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
     width: 100%;
@@ -27,9 +79,9 @@ body {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 
-img {
+.newsImage {
     width: 100%;
-    height: 510px;
+    height: 250px;
     border-radius: 5px 5px 0 0;
 }
 
