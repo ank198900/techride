@@ -17,6 +17,9 @@ $(function () {
                 if (image == null) {
                     image = "assets/images/techride.png"
                 }
+                if (description == null) {
+                    description = "";
+                }
                 $('#topNews').append(
                       "<div class='col-md-4 cardAlignment'><div class='mainCard'><div class='cardContainer'><h6 class='techHead'>Source: <b><i>" + source + "</i></b> published on " +
                       date + " </h6></div><hr><img class='newsImage' src='" + image +
