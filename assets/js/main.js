@@ -24,9 +24,9 @@ $(function () {
                       "<div class='col-md-4 cardAlignment'><div class='mainCard'><div class='cardContainer'><h6 class='techHead'>Source: <b><i>" + source + "</i></b> published on " +
                       date + " </h6></div><hr><img class='newsImage' src='" + image +
                       "'><div class='cardContainer'><h4 class='mainHeading'>" + title +
-                      "</h4><p class='newsDesc'>" + description + "</p><br><a href='" +
+                      "</h4><p class='newsDesc'>" + description + "</p><p class='newsDesc'><a href='" +
                       url +
-                      "' target='_blank'>Click to know more..</a></div></div></div>"
+                      "' target='_blank'>Click to know more..</a></p></div></div></div>"
                 );
                       //}
           });
