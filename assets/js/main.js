@@ -26,7 +26,7 @@ $(function () {
                       "'><div class='cardContainer'><h4 class='mainHeading'>" + title +
                       "</h4><p class='newsDesc'>" + description + " <a href='" +
                       url +
-                      "' target='_blank'>Read More..</a></p></div></div></div>"
+                      "' target='_blank'>Click to know more..</a></p></div></div></div>"
                 );
                       //}
           });
