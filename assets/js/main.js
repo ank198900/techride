@@ -1,7 +1,7 @@
 // Top News
 $(function () {
     $.ajax({
-          url: "https://newsapi.org/v2/top-headlines?country=in&category=technology&apiKey=b023e7d89f064287b363a6691cd99344",
+          url: "https://newsapi.org/v2/top-headlines?country=in&category=technology&apiKey=API_KEY",
           "Content-Type": "application/json",
           success: function (results) {
                 $.each(results.articles, function(i) {
@@ -26,7 +26,7 @@ $(function () {
                       "'><div class='cardContainer'><h4 class='mainHeading'>" + title +
                       "</h4><p class='newsDesc'>" + description + "</p><p class='newsDesc'><a href='" +
                       url +
-                      "' target='_blank'>Click to know more..</a></p></div></div></div>"
+                      "' target='_blank'>Read more..</a></p></div></div></div>"
                 );
                       //}
           });
