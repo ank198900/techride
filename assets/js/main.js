@@ -1,7 +1,7 @@
 // Top News
 $(function () {
     $.ajax({
-          url: "https://newsapi.org/v2/top-headlines?country=in&category=technology&apiKey=API_KEY",
+          url: "https://newsapi.org/v2/top-headlines?country=in&category=technology&apiKey=",
           "Content-Type": "application/json",
           success: function (results) {
                 $.each(results.articles, function(i) {
