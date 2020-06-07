@@ -5,7 +5,7 @@ $(function () {
           "Content-Type": "application/json",
           success: function (results) {
                 $.each(results.articles, function(i) {
-                    //if(i < 20) {  
+                    
                 var source = results.articles[i].source.name;
                 var title = results.articles[i].title;
                 var description = results.articles[i].description;
@@ -28,7 +28,6 @@ $(function () {
                       url +
                       "' target='_blank'>Read more..</a></p></div></div></div>"
                 );
-                      //}
           });
           }
     });
